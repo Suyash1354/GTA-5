@@ -30,7 +30,7 @@ useGSAP(()=>{
 
   tl
   .to(".fade-out", {opacity:0, ease:"power1.inOut"})
-  .to(".scale-out",{scale:1, ease:"power1.inOut"})
+  .to(".scale-out",{scale:1, ease:"power1.inOut"} )
    .to(".mask-wrapper",{maskSize:maskSize},"<")
    .to(".mask-wrapper",{opacity:0})
    .to(".overlay-logo",{opacity:1, onComplete:()=>{gsap.set(".overlay-logo",{opacity:0, ease:"power1.inOut" ,duration:1})}},"<")
