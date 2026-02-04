@@ -128,14 +128,14 @@ main {
       }
     }
     .jason-2 {
-      @apply bg-yellow h-[90vh] w-auto md:mt-36 mt-20 -translate-x-5;
+      @apply bg-yellow h-[90vh] w-auto   mt-20 -translate-x-5;
 
       img {
         @apply size-full object-cover [object-position:80%_center] hover:scale-x-[0.97] hover:scale-y-[0.98] transition duration-700 ease-in-out;
       }
     }
     .jason-3 {
-      @apply bg-yellow h-[50vh] md:w-[60%] -translate-x-5;
+      @apply bg-yellow h-[50vh]    -translate-x-5;
 
       img {
         @apply size-full object-cover [object-position:42%_center] hover:scale-[0.97] transition duration-700 ease-in-out;

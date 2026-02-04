@@ -22,7 +22,6 @@ useGSAP(()=>{
       trigger:".hero-section",
       start: "top top",
       scrub:2.5,  
-      markers:true,
       end:"+=200%",
       pin:true
     }
