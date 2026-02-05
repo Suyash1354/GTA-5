@@ -13,7 +13,7 @@ const Jason = () => {
                 start:"top, 90%",
                 end:"10% center",
                 scrub:2,
-                markers:true
+                
             }
         })
         .to(".first-vd",{opacity:0 ,duration:1, ease:"power1.inOut"})
